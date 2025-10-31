@@ -15,6 +15,8 @@ public class FriendPair{
 
           int totalPair = sp + pairway;; 
           return totalPair; 
+
+          // return frndPair(n-1) + (n-1) * FrendPair(n-2);
     }
 
     public static void main(String args[]){
