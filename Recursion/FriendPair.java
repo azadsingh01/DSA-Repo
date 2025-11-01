@@ -13,7 +13,7 @@ public class FriendPair{
           int dp = frndPair(n-2);
           int pairway = (n-1) * dp;
 
-          int totalPair = sp + pairway;; 
+          int totalPair = sp + pairway;
           return totalPair; 
 
           // return frndPair(n-1) + (n-1) * FrendPair(n-2);
